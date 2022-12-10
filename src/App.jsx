@@ -10,6 +10,7 @@ import UploadComponent from './components/UploadComponent';
 import LoaderComponent from './components/LoaderComponent';
 import LoaderSpinnerContextProvider from './context/LoaderSpinnerContextProvider';
 import Detail from './pages/detail';
+import MenuComponent from './components/MenuComponent'
 function App() {
 
   const items = [
@@ -30,29 +31,8 @@ function App() {
   return (
     
       <Theme>
-        <LoaderSpinnerContextProvider>
-          <BrowserRouter>
-            <LoaderComponent />
-            <Routes>
-              <Route path="/" element={<>
-                <Dashboard> 
-                  <p>content </p> 
-                </Dashboard>
-              </>}/>
-              <Route path="/upload" element={<>
-                <Dashboard> 
-                  <UploadComponent />
-                </Dashboard>
-              </> } />
-              <Route path="/detail/:slug" element={<>
-                <Dashboard> 
-                  <Detail />
-                </Dashboard>
-              </> } />
-              <Route path="/login" element={<Login />} />
-            </Routes>
-          </BrowserRouter>
-        </LoaderSpinnerContextProvider>
+        <MenuComponent/>
+        
       </Theme>
   );
 }

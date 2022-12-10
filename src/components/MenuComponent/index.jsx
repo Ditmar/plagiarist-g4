@@ -5,14 +5,8 @@ const MenuComponent = ({items}) => {
     const classes = useStyles();
     return (
     <div className={classes.menu}>
-        <ul>
-            {items.map(item => (
-               <li key={item.name}>
-                   <Link  to={item.to}>{item.name}</Link>
-
-               </li> 
-            ))}
-        </ul>
+        <h2>MenuComponent</h2>
+       
     </div>)
 
 }
