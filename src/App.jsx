@@ -4,13 +4,8 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Login from './pages/login';
-import Dashboard from './components/DashboardComponent/Dashboard';
-import UploadComponent from './components/UploadComponent';
-import LoaderComponent from './components/LoaderComponent';
-import LoaderSpinnerContextProvider from './context/LoaderSpinnerContextProvider';
-import Detail from './pages/detail';
-import MenuComponent from './components/MenuComponent'
+
+import MenuComponent from './components/MenuComponent/MenuComponent'
 function App() {
 
   const items = [
