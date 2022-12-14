@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 
 import MenuComponent from './components/MenuComponent/MenuComponent'
+import {Table} from './components/CardTableComponet/Table'
 function App() {
 
   const items = [
@@ -27,7 +28,7 @@ function App() {
     
       <Theme>
         <MenuComponent/>
-        
+        {/*<Table/>*/}
       </Theme>
   );
 }
