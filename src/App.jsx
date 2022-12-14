@@ -5,7 +5,7 @@ import {
   Route,
 } from 'react-router-dom';
 import Login from './pages/login';
-import LastComponent from './components/LastComponent/Index';
+import LastDocuments from './components/LastComponent/LastDocuments';
 function App() {
 
   const items = [
@@ -26,7 +26,7 @@ function App() {
   return (
     
       <Theme>
-        <LastComponent/>
+        <LastDocuments/>
       </Theme>
   );
 }

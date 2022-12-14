@@ -14,7 +14,7 @@ const CardComponent = () => {
   const classes = useStyles();
   return (
     <>
-      <TableContainer className={classes.container}>
+      <TableContainer className={classes.tablecard}>
         <Table>
           <TableHead>
             <span className={classes.title}>Ultimos Documentos</span>

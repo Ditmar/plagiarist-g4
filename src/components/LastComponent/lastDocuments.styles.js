@@ -1,10 +1,9 @@
 import { makeStyles } from "@material-ui/styles";
-export const useStyles = makeStyles(() => ({
+export const useStyles = makeStyles((theme) => ({
   container: {
-    backgroundColor: "#FFFFFF",
-    border: "1px solid #DFE0EB",
-    borderRadius: 4,
-    padding: "24px 4px 24px 0px",
+    backgroundColor: theme.palette.primary.main,
+    height: "100%",
+    minHeight: "100vh",
   },
   link: {
     fontFamily: "Muli",
@@ -64,9 +63,11 @@ export const useStyles = makeStyles(() => ({
   lastRow: {
     marginTop: 100,
   },
-  containere: {
-    height: "100%",
-    minHeight: "100vh",
+  tablecard: {
+    backgroundColor: theme.palette.secondary.main,
+    border: "1px solid #DFE0EB",
+    borderRadius: 4,
+    padding: "24px 4px 24px 0px",
   },
   mainBlock: {
     padding: 90,

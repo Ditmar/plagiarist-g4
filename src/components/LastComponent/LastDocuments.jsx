@@ -5,7 +5,7 @@ import { useStyles } from "./lastDocuments.styles";
 const LastDocuments = () => {
   const classes = useStyles();
   return (
-    <div className={classes.containere}>
+    <div className={classes.container}>
       <Grid className={classes.mainBlock}>
         <Grid className={classes.lastRow}>
           <CardComponent />
