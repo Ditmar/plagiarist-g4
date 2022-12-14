@@ -4,8 +4,11 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
+
 import Login from './pages/login';
 import LastDocuments from './components/LastComponent/LastDocuments';
+import MenuComponent from './components/MenuComponent/MenuComponent'
+
 function App() {
 
   const items = [
@@ -26,7 +29,12 @@ function App() {
   return (
     
       <Theme>
+
         <LastDocuments/>
+
+        <MenuComponent/>
+        
+
       </Theme>
   );
 }
