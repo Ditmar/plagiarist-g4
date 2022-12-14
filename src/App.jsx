@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/login";
 import LastDocuments from "./components/LastComponent/LastDocuments";
 import MenuComponent from "./components/MenuComponent/MenuComponent";
-
+import {RegisterUi} from './components/Register/Register';
 function App() {
   const items = [
     {
@@ -25,6 +25,7 @@ function App() {
     <Theme>
       <MenuComponent />
       <LastDocuments />
+      <RegisterUi />
     </Theme>
   );
 }
