@@ -29,10 +29,10 @@ function App() {
   return (
     
       <Theme>
-
+<MenuComponent/>
         <LastDocuments/>
 
-        <MenuComponent/>
+        
         
 
       </Theme>
