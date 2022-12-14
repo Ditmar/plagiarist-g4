@@ -14,7 +14,7 @@ const Header = () => {
     <div className={classes.content}>
       <Toolbar>
         <Typography className={classes.title}></Typography>
-        <Typography className={classes.title}>Listar Tesis</Typography>
+        <Typography className={classes.title}>Overview</Typography>
         <Typography className={classes.name}></Typography>
         <Stack direction="row" spacing={1}>
           <LiveSearch />
@@ -26,10 +26,9 @@ const Header = () => {
           <MenuItem>
             <Typography className={classes.name}>jones Ferdinand</Typography>
           </MenuItem>
-          <Avatar
-            alt="Remy Sharp"
-            src="https://avatars3.githubusercontent.com/u/21162888?s=460&v=4"
-          />
+          <Avatar>  
+            <img src='/headerComponent/avatar.png' alt='Avatar' />    
+          </Avatar>
         </Stack>
       </Toolbar>
     </div>
