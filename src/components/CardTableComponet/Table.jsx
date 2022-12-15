@@ -1,20 +1,20 @@
-import { useTable } from "./Table_head";
-import { useData } from "./Data";
+import { TableHead } from "./TableHead";
+import { Data } from "./Data";
 import DataTable from "react-data-table-component";
-import {Head} from './Table_top';
+import {TableTop} from './TableTop';
 
 export const Table = () =>
 {
-    const columns = useTable();
-    const data = useData();
+    const columns = TableHead();
+    const data = Data();
     return(
-        <di>
-        <Head title='Lista'/>
-        <DataTable 
-        columns={columns}
-        data = {data}
-        pagination
-        />
-        </di>
+        <div>
+            <TableTop title='Lista'/>
+            <DataTable 
+            columns={columns}
+            data = {data}
+            pagination
+            />
+        </div>
     )
 }

@@ -28,7 +28,7 @@ function App() {
     
       <Theme>
         <MenuComponent/>
-        <Table/>
+        
       </Theme>
   );
 }

@@ -1,5 +1,5 @@
 
-export const useTable = () =>
+export const TableHead = () =>
 {
     const columns = [
         {
