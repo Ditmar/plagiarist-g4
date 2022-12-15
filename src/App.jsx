@@ -10,7 +10,6 @@ import UploadComponent from './components/UploadComponent';
 import LoaderComponent from './components/LoaderComponent';
 import LoaderSpinnerContextProvider from './context/LoaderSpinnerContextProvider';
 import Detail from './pages/detail';
-import { Home } from './Home/Home'
 
 function App() {
 
@@ -29,7 +28,7 @@ function App() {
     }
   ];
   
-}
+
   return (
      
       <Theme>
@@ -39,10 +38,7 @@ function App() {
             <Routes>
               <Route path="/" element={<>
                 <Dashboard> 
-                <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />}>
-                </Route>
+                <p>context</p>
             </Routes>
         </BrowserRouter>
                 </Dashboard>
@@ -64,5 +60,5 @@ function App() {
       </Theme>
   );
 
-
+  }            
 export default App;
