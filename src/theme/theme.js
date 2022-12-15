@@ -22,6 +22,12 @@ const theme = createTheme({
         }, 
         fourth: {
             main: '#EBC7E8'
+        },
+        avatar: {
+            avatarS:'#3751FF'
+        },
+        button: {
+            buttonS:'#3751FF'
         }
     },
     overrides: {
