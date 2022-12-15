@@ -1,24 +1,38 @@
-import Theme from './theme/theme';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from 'react-router-dom';
-import Login from './pages/login';
 
+
+
+import Theme from "./theme/theme";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Login from "./pages/login";
+
+import MenuComponent from "./components/MenuComponent/MenuComponent";
 import Header from './components/Header/Header'
-
-import './App.css'
+import LastDocuments from "./components/LastComponent/LastDocuments";
 
 function App() {
+  const items = [
+    {
+      to: "/",
+      name: "Home",
+    },
+    {
+      to: "/searchgiffs",
+      name: "Search Memes",
+    },
+    {
+      to: "/login",
+      name: "Login",
+    },
+  ];
 
   return (
-    <div>
+    <Theme>
+      <MenuComponent />
       <Header/>
-       
-     
-      </div>
+      <LastDocuments />
+    </Theme>
+
   );
 }
-
-export default App;
+export default App

@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core";
 
 export const useStyles = makeStyles((theme) => ({
   content: {
-    marginTop: 25,
+    marginTop: 10,
   },
   name: {
     flexGrow: 4,
@@ -22,6 +22,7 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: 24,
     lineHeight: "30px",
     letterSpacing: 0.3,
+    marginLeft:20
   },
 
   imagen: {
