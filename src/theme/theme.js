@@ -12,16 +12,22 @@ const theme = createTheme({
     },
     palette: {
         primary: {
-            main: '#645CAA'
+            main: '#F7F8FC'
         },
         secondary: {
-            main: '#A084CA'
+            main: '#FFFFFF'
         }, 
         third: {
             main: '#BFACE0'
         }, 
         fourth: {
             main: '#EBC7E8'
+        },
+        avatar: {
+            avatarS:'#3751FF'
+        },
+        button: {
+            buttonS:'#3751FF'
         }
     },
     overrides: {
