@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/login";
 import LastDocuments from "./components/LastComponent/LastDocuments";
 import MenuComponent from "./components/MenuComponent/MenuComponent";
-import Navigation from "./context/Navigation";
+
 function App() {
   const items = [
     {
@@ -23,7 +23,7 @@ function App() {
   return (
     <Theme>
       <MenuComponent />
-       <Navigation />
+       
       <LastDocuments />
     </Theme>
   );
