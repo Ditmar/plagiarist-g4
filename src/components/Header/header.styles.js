@@ -23,6 +23,7 @@ export const useStyles = makeStyles((theme) => ({
     lineHeight: "30px",
     letterSpacing: 0.3,
   },
+
   imagen: {
     borderRadius: "50%",
   },

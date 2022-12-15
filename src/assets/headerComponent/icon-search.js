@@ -6,3 +6,4 @@ export default (props) => (
         <path d="M11 11L15 15" stroke="#C5C7CD" strokeWidth="1.5" strokeLinecap="round" />
     </svg>
 );
+
