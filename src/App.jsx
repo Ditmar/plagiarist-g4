@@ -39,8 +39,7 @@ function App() {
               <Route path="/" element={<>
                 <Dashboard> 
                 <p>context</p>
-            </Routes>
-        </BrowserRouter>
+        
                 </Dashboard>
               </>}/>
               <Route path="/upload" element={<>
