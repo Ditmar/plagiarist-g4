@@ -1,8 +1,8 @@
 import Theme from "./theme/theme";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import Navigation from "./context/Navigation";
 import Login from "./pages/login";
-import CardHome from './components/cardhome/CardHome';
+
 function App() {
   const items = [
     {
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <Theme>
-      <CardHome />
+      <Navigation />
     </Theme>
   );
 }
