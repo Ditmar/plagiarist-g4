@@ -1,9 +1,17 @@
+
+
+
 import Theme from "./theme/theme";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/login";
-import LastDocuments from "./components/LastComponent/LastDocuments";
+
 import MenuComponent from "./components/MenuComponent/MenuComponent";
+
+import Header from './components/Header/Header'
+import LastDocuments from "./components/LastComponent/LastDocuments";
+
 import {RegisterUi} from './components/Register/Register';
+
 function App() {
   const items = [
     {
@@ -23,10 +31,11 @@ function App() {
   return (
     <Theme>
       <MenuComponent />
+      <Header/>
       <LastDocuments />
       <RegisterUi />
     </Theme>
+
   );
 }
-
-export default App;
+export default App
